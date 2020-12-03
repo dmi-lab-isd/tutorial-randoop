@@ -5,6 +5,9 @@ Documentazione: https://randoop.github.io/randoop/manual/
 
 ## Step
 Per semplificare l'uso di Randoop è stato creato uno script (`randoop.sh`)
+
+La cartella dei test contiene già un esempio di test generati da Randoop
+
 - `mvn package` (genera il jar del progetto per il quale generare i test)
 - `chmod +x randoop.sh`
 - `./randoop.sh --gen` (genera i test a partire dal jar)
